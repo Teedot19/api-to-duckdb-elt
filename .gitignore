@@ -1,10 +1,12 @@
 .env
 .DS_Store 
-venv/ 
+/venv/ 
 misc/
-.tmp/
+/.tmp/
 /GSHEETS_KEY.json
 /news_api_data.db
 /poetry.lock
 /pyproject.toml
 /test.ipynb
+.gitignore
+/README.md
