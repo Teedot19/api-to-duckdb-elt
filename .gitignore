@@ -10,4 +10,8 @@ misc/
 /test.ipynb
 .gitignore
 /README.md
-.tmp_dagster_home_xbnewoxq
+.tmp_dagster_home_*
+.dagster/
+__pycache__/
+__pycache__/
+*.pyc
