@@ -1,0 +1,23 @@
+[32m2026-01-10 20:42:10 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 9c00c049-9f9e-40ac-a8e2-d5faae2e9b81 - 13323 - LOGS_CAPTURED - Started capturing logs in process (pid: 13323).
+[32m2026-01-10 20:42:10 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 9c00c049-9f9e-40ac-a8e2-d5faae2e9b81 - 13323 - write_to_gsheets - STEP_START - Started execution of step "write_to_gsheets".
+[32m2026-01-10 20:42:11 +0000[0m - dagster - [34mERROR[0m - [31m__ASSET_JOB - 9c00c049-9f9e-40ac-a8e2-d5faae2e9b81 - 13323 - write_to_gsheets - STEP_FAILURE - Execution of step "write_to_gsheets" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "write_to_gsheets"::
+
+_duckdb.InvalidInputException: Invalid Input Error: Sheet with ID  not found
+
+Stack Trace:
+  File "/Users/teedotflims/mini-projects/.venv/lib/python3.11/site-packages/dagster/_core/execution/plan/utils.py", line 57, in op_execution_error_boundary
+    yield
+  File "/Users/teedotflims/mini-projects/.venv/lib/python3.11/site-packages/dagster/_utils/__init__.py", line 394, in iterate_with_context
+    next_output = next(iterator)
+                  ^^^^^^^^^^^^^^
+  File "/Users/teedotflims/mini-projects/.venv/lib/python3.11/site-packages/dagster/_core/execution/plan/compute_generator.py", line 135, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+             ^^^^^^^^^^^^^^^^^^
+  File "/Users/teedotflims/mini-projects/.venv/lib/python3.11/site-packages/dagster/_core/execution/plan/compute_generator.py", line 115, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+                                                                    ^^^^^^^^^^^^^^^^^^
+  File "/Users/teedotflims/mini-projects/src/ingestion_pipeline/orchestration/assets.py", line 60, in write_to_gsheets
+    conn.execute(f"""
+[0m

@@ -1,0 +1,10 @@
+.env
+.DS_Store 
+venv/ 
+misc/
+.tmp/
+/GSHEETS_KEY.json
+/news_api_data.db
+/poetry.lock
+/pyproject.toml
+/test.ipynb

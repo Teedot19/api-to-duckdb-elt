@@ -1,0 +1,7 @@
+[32m2026-01-11 20:10:17 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - f07070ae-985b-4027-a401-43359b8d16b9 - 20777 - LOGS_CAPTURED - Started capturing logs in process (pid: 20777).
+[32m2026-01-11 20:10:17 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - f07070ae-985b-4027-a401-43359b8d16b9 - 20777 - write_to_gsheets - STEP_START - Started execution of step "write_to_gsheets".
+[32m2026-01-11 20:10:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - f07070ae-985b-4027-a401-43359b8d16b9 - 20777 - write_to_gsheets - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2026-01-11 20:10:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - f07070ae-985b-4027-a401-43359b8d16b9 - write_to_gsheets - Writing file at: /Users/teedotflims/mini-projects/.tmp_dagster_home_xbnewoxq/storage/write_to_gsheets using PickledObjectFilesystemIOManager...
+[32m2026-01-11 20:10:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - f07070ae-985b-4027-a401-43359b8d16b9 - 20777 - write_to_gsheets - ASSET_MATERIALIZATION - Materialized value write_to_gsheets.
+[32m2026-01-11 20:10:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - f07070ae-985b-4027-a401-43359b8d16b9 - 20777 - write_to_gsheets - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2026-01-11 20:10:18 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - f07070ae-985b-4027-a401-43359b8d16b9 - 20777 - write_to_gsheets - STEP_SUCCESS - Finished execution of step "write_to_gsheets" in 1.62s.
