@@ -16,7 +16,7 @@ validation, idempotent loads, and orchestration.
 
 This repository contains a minimal, production-style ELT pipeline that moves data
 from a third-party REST API into DuckDB with strong correctness guarantees and
-low operational overhead. The emphasis is on pipeline design and reliability —
+low operational overhead. The emphasis is on pipeline design and reliability 
 not domain-specific analytics.
 
 ## Pipeline flow
