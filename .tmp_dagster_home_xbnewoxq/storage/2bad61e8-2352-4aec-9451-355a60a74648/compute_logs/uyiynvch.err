@@ -1,7 +1,0 @@
-[32m2026-01-10 21:40:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2bad61e8-2352-4aec-9451-355a60a74648 - 14482 - LOGS_CAPTURED - Started capturing logs in process (pid: 14482).
-[32m2026-01-10 21:40:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2bad61e8-2352-4aec-9451-355a60a74648 - 14482 - raw_records - STEP_START - Started execution of step "raw_records".
-[32m2026-01-10 21:42:33 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2bad61e8-2352-4aec-9451-355a60a74648 - 14482 - raw_records - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2026-01-10 21:42:33 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2bad61e8-2352-4aec-9451-355a60a74648 - raw_records - Writing file at: /Users/teedotflims/mini-projects/.tmp_dagster_home_xbnewoxq/storage/raw_records using PickledObjectFilesystemIOManager...
-[32m2026-01-10 21:42:33 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2bad61e8-2352-4aec-9451-355a60a74648 - 14482 - raw_records - ASSET_MATERIALIZATION - Materialized value raw_records.
-[32m2026-01-10 21:42:33 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2bad61e8-2352-4aec-9451-355a60a74648 - 14482 - raw_records - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2026-01-10 21:42:33 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 2bad61e8-2352-4aec-9451-355a60a74648 - 14482 - raw_records - STEP_SUCCESS - Finished execution of step "raw_records" in 2m30s.
